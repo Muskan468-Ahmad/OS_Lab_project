@@ -53,4 +53,33 @@ When a command is entered, the executeCommand function is responsible for parsin
 
 ![image](https://github.com/user-attachments/assets/b9009193-63e3-4c52-a2a5-72bcfdb8190c)
 
+### Redirection Handling:
+Redirection (>, <) is implemented by modifying the file descriptors using dup2().
+
+![image](https://github.com/user-attachments/assets/158a33a7-aa35-4f4a-85d3-d64a709ec77d)
+
+### Piping:
+
+![image](https://github.com/user-attachments/assets/e15ee9a6-93ce-4bb8-8f38-acceee4cdec8)
+
+### Background Execution:
+Background execution is implemented by checking for the & symbol at the end of a command
+If a command ends with &, the shell executes it in the background without waiting for the process to finish.
+
+### EXAMPLES OF COMMANDS:
+
+![image](https://github.com/user-attachments/assets/3738827c-c0a4-4e15-aab0-f9d444b16262)
+
+### Applications:
+Highlight practical applications of building a shell:
+•	Learning Purpose: Understand process control, system calls, and inter-process communication.
+•	Foundation for Advanced Shells: Build more complex tools like task automation or custom scripting environments.
+### Conclusion:
+The mysh project is a basic shell implementation that demonstrates core features of a terminal, including command execution, built-in commands, redirection, piping, and background processes. While it lacks some of the advanced features of a full Linux shell, it provides a solid foundation for understanding how shells operate at a system level. Further improvements can be made to add more functionality, robustness, and user-friendly features.
+
+
+
+
+
+
 
