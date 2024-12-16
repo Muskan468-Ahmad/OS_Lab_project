@@ -51,5 +51,6 @@ PIPING).
 ### Command Execution:
 When a command is entered, the executeCommand function is responsible for parsing and executing it.
 
-![Uploading image.png…]()
+![image](https://github.com/user-attachments/assets/b9009193-63e3-4c52-a2a5-72bcfdb8190c)
+
 
