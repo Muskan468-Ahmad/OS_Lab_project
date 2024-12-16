@@ -45,22 +45,11 @@ AND DETERMINES THE TYPE OF COMMAND (WHETHER IT'S
 BUILT-IN, EXTERNAL, INVOLVES REDIRECTION, OR USES
 PIPING).
 
-
-![image](https://github.com/user-attachments/assets/06449079-e492-4c00-921c-8dc4b874a444)
-
 ### Command Execution:
 When a command is entered, the executeCommand function is responsible for parsing and executing it.
 
-![image](https://github.com/user-attachments/assets/b9009193-63e3-4c52-a2a5-72bcfdb8190c)
-
 ### Redirection Handling:
 Redirection (>, <) is implemented by modifying the file descriptors using dup2().
-
-![image](https://github.com/user-attachments/assets/158a33a7-aa35-4f4a-85d3-d64a709ec77d)
-
-### Piping:
-
-![image](https://github.com/user-attachments/assets/e15ee9a6-93ce-4bb8-8f38-acceee4cdec8)
 
 ### Background Execution:
 Background execution is implemented by checking for the & symbol at the end of a command
