@@ -44,5 +44,12 @@ THE MAIN LOOP READS USER INPUT, PARSES THE COMMAND,
 AND DETERMINES THE TYPE OF COMMAND (WHETHER IT'S
 BUILT-IN, EXTERNAL, INVOLVES REDIRECTION, OR USES
 PIPING).
+
+
 ![image](https://github.com/user-attachments/assets/06449079-e492-4c00-921c-8dc4b874a444)
+
+### Command Execution:
+When a command is entered, the executeCommand function is responsible for parsing and executing it.
+
+![Uploading image.png…]()
 
